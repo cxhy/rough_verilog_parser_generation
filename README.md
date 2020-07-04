@@ -15,12 +15,12 @@
 # 依赖
 计划基于 Python3.8 开发，考虑到大多数一线工程师在隔离网络的服务器上进行开发工作，所以尽量只使用简单易于安装的标准库，尽量不依赖外部的工具。当前计划用到的库有
 
-   . sys
-   . getopt
-   . sqlite3
-   . copy
-   . re
-   . pprint
+   * sys
+   * getopt
+   * sqlite3
+   * copy
+   * re
+   * pprint
 
 # 贡献者
 
