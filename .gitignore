@@ -128,6 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-dev_log
+dev_log.md
 test.vp
 xx
+.idea/

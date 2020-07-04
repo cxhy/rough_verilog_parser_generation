@@ -26,7 +26,7 @@ if debug == 1:
     pp.pprint(data)
 
 data = [i for i in data if i != '']
-data = list(map(str.strip, filter(lambda x:x and x.strip(), data)))
+data = list(map(str.strip, filter(lambda i:i and i.strip(), data)))
 
 if debug == 1:
     pp.pprint(data)
