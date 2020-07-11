@@ -27,9 +27,9 @@ verlog_key_expressions = ('{', '}', '+', '-', '*', '/', '%', '<', '>', '<=', '!'
 pp = pprint.PrettyPrinter(indent=4)
 debug = 0
 
-data  = []
+data = []
 data2 = []
-print ("hello world")
+print("hello world")
 
 file_name = "test"
 file_suffix = "vp"
@@ -61,6 +61,22 @@ comment_type1 = re.compile(r"//[.]*")
 comment_flag = 0
 
 print(comment_type1.match("kdsjfkldsjfkl//3dfklgjdfkljg"))
+
+
+def greeting(name:str) -> str:
+    return 'Hello ' + name
+
+
+print(greeting("world"))
+
+class ParserVpFile:
+    def __init__(self, name):
+        self.name = name
+    def PrintFileName(self):
+        print(self.name)
+
+xx = ParserVpFile("testfile")
+xx.PrintFileName()
 
 #def removeComments(self, source: List[str]) -> List[str]:
 #    s = '\n'.join(source) + '\n' #为最后一行的'//'提供闭区间
